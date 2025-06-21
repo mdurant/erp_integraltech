@@ -17,6 +17,7 @@ use Database\Seeders\PurchaseConcepsSeeder;
 use Database\Seeders\BusinessunitsSeeder;
 use Database\Seeders\CustomerProvidersSeeder;
 use Database\Seeders\UsersSeeder;
+use Database\Seeders\CompaniesSeeder;
 
 class DatabaseSeeder extends Seeder
 {
@@ -39,6 +40,7 @@ class DatabaseSeeder extends Seeder
             BusinessunitsSeeder::class,
             CustomerProvidersSeeder::class,
             UsersSeeder::class,
+            CompaniesSeeder::class,
             // Add other seeders here
         ]);
     }
